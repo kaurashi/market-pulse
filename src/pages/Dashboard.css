@@ -1,0 +1,32 @@
+
+.cards-container::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+.dashboard-container {
+  padding: 3rem;
+  background-color: #1b1f3b;
+  min-height: 150vh;
+}
+
+#dashboard-header {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  flex-wrap: nowrap;     
+  overflow-x: auto;      
+  padding-bottom: 2rem;
+}
+
+.loading-text {
+  color: white;
+  padding: 2rem;
+}
+
+

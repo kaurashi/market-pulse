@@ -1,0 +1,58 @@
+.card-change.negative {
+  color: #f44336;
+}
+.card {
+  background: linear-gradient(135deg, #2a2e55, #23274a);
+  border-radius: 14px;
+  padding: 1.4rem;
+  width: 260px;
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #eaeaff;
+}
+
+.card-price {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.card-change {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.card-change.positive {
+  color: #4caf50;
+}
+
+.card-change.negative {
+  color: #f44336;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #eaeaff;
+  display: flex;
+  align-items: center;
+}
+
+.symbol {
+  font-size: 0.75rem;
+  color: rgb(191, 191, 231);
+  margin-left: 10px;
+}
+

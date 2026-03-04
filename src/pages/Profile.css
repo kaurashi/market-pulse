@@ -1,0 +1,50 @@
+.profile-container {
+  min-height: calc(100vh - 70px);
+  background: linear-gradient(135deg, #1f2240, #181b34);
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.profile-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.profile-card {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #242850;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.profile-card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.profile-card .role {
+  color: #00e1ff;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.profile-card p {
+  margin: 0.6rem 0;
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 1.5rem;
+  }
+
+  .profile-card h2 {
+    font-size: 1.4rem;
+  }
+}

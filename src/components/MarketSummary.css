@@ -1,0 +1,50 @@
+.market-summary {
+  display: flex;
+  flex-wrap: wrap;         
+  gap: 1.5rem;             
+  justify-content: center;  
+  margin: 2.5rem 0;
+}
+
+.summary-card {
+  background: linear-gradient(135deg, #2a2e55, #23274a);  
+  padding: 1.4rem 2.2rem; 
+  border-radius: 14px;  
+  min-width: 220px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  flex: 1 1 220px;       
+}
+
+.summary-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+}
+
+.summary-label {
+  font-size: 0.85rem;    
+  opacity: 0.75;
+  margin-bottom: 0.4rem;
+}
+
+.summary-value {
+  font-size: 1.5rem;    
+  font-weight: 700;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  color: #ffffff;
+}
+
+h2{
+  color : white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+}
