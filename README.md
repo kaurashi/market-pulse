@@ -1,70 +1,181 @@
-# Getting Started with Create React App
+# 📊 MarketPulse — Real-Time Cryptocurrency Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MarketPulse is a **real-time cryptocurrency dashboard** built with React that allows users to track live market prices, monitor market trends, and manage favorite coins using an intuitive and responsive interface.  
 
-## Available Scripts
+The goal of this project is to demonstrate **API integration, state management, and responsive UI design** using React.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+# 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔗 Live Application  
+https://market-pulse-blond.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 GitHub Repository  
+https://github.com/kaurashi/market-pulse.git
+---
 
-### `npm test`
+# ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✔️ Real-time cryptocurrency market data  
+✔️ Search cryptocurrencies by name or symbol  
+✔️ Sort coins by price, market cap, and 24h change  
+✔️ Favorite coins for quick access  
+✔️ Persistent favorites using localStorage  
+✔️ Responsive dashboard UI  
+✔️ Horizontal scrolling card layout  
+✔️ Smooth page navigation with React Router  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend
+- React.js  
+- JavaScript  
+- CSS 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### API
+- CoinGecko API  
 
 ### Deployment
+- Vercel  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Version Control
+- Git & GitHub  
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 📂 Project Structure
+
+```
+market-pulse-new/
+│
+├── src/
+│   ├── components/
+│   │   ├── Card.css
+│   │   ├── Card.js
+│   │   ├── MarketSummary.css
+│   │   ├── MarketSummary.js
+│   │   ├── Navbar.css
+│   │   └── Navbar.js
+│   │
+│   ├── pages/
+│   │   ├── Dashboard.css
+│   │   ├── Dashboard.js
+│   │   ├── Favorites.js
+│   │   ├── Market.js
+│   │   ├── Profile.css
+│   │   └── Profile.js
+│   │
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   └── index.js
+
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/kaurashi/market-pulse.git
+```
+
+Navigate to the project folder
+
+```bash
+cd market-pulse-new
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm start
+```
+
+---
+
+# 📸 Screenshots
+
+### 🏠 Dashboard
+Shows the main cryptocurrency cards with real-time price data.
+
+```markdown
+![Dashboard](screenshots/dashboard.png)
+```
+
+---
+
+### 🔎 Search Feature
+Allows users to search for specific cryptocurrencies.
+
+```markdown
+![Search](screenshots/search-feature.png)
+```
+
+---
+
+### 📊 Sorting
+Users can sort coins by price, market cap, or percentage change.
+
+```markdown
+![Sorting](screenshots/sorting.png)
+```
+
+---
+
+### ⭐ Favorites
+Users can mark coins as favorites and access them quickly.
+
+```markdown
+![Favorites](screenshots/favorites.png)
+```
+
+---
+
+# 🎯 Learning Outcomes
+
+Through this project I learned:
+
+- Integrating external APIs in React applications  
+- Managing application state effectively  
+- Building reusable UI components  
+- Implementing persistent user data using localStorage  
+- Designing responsive dashboards  
+- Deploying applications using Vercel  
+
+---
+
+# 🔮 Future Improvements
+
+- Add detailed cryptocurrency analytics page  
+- Implement price trend charts  
+- Add dark/light mode toggle  
+- Improve filtering and sorting options  
+- Add pagination for large datasets  
+
+---
+
+# 👨‍💻 Author
+
+**Ashmeet Kaur**
+
+GitHub  
+https://github.com/kaurashi
+
+---
+
+# ⭐ Support
+
+If you like this project, please give the repository a **star**!

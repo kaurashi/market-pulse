@@ -38,7 +38,7 @@
   color: #e0e0e0;
 }
 
-/* Responsive */
+
 @media (max-width: 480px) {
   .profile-card {
     padding: 1.5rem;
