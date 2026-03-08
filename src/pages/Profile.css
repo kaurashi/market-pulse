@@ -38,13 +38,34 @@
   color: #e0e0e0;
 }
 
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 1.5rem;
+  }
 
-@media (max-width: 480px) {
   .profile-card {
     padding: 1.5rem;
   }
 
   .profile-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .profile-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 1.2rem;
+  }
+
+  .profile-card h2 {
     font-size: 1.4rem;
+  }
+
+  .profile-card p {
+    font-size: 0.85rem;
   }
 }

@@ -48,3 +48,33 @@ h2{
   align-items: center;
   font-size: medium;
 }
+
+@media (max-width: 1024px){
+  .summary-card{
+    min-width:180px;
+    padding:1.2rem 1.8rem;
+  }
+
+  .summary-value{
+    font-size:1.3rem;
+  }
+
+  .summary-label{
+    font-size:0.8px;
+  }
+}
+
+@media (max-width: 480px){
+  .summary-card{
+    min-width:150px;
+    padding:1rem 1.4rem;
+  }
+
+  .summary-value{
+    font-size:1.1rem;
+  }
+
+  .summary-label{
+    font-size:0.75px;
+  }
+}

@@ -111,38 +111,28 @@ npm start
 ### 🏠 Dashboard
 Shows the main cryptocurrency cards with real-time price data.
 
-```markdown
 ![Dashboard](screenshots/dashboard.png)
-```
 
 ---
 
 ### 🔎 Search Feature
 Allows users to search for specific cryptocurrencies.
 
-```markdown
-![Search](screenshots/search-feature.png)
-```
+![Search Feature](screenshots/search-feature.png)
 
 ---
 
 ### 📊 Sorting
 Users can sort coins by price, market cap, or percentage change.
 
-```markdown
 ![Sorting](screenshots/sorting.png)
-```
 
 ---
 
 ### ⭐ Favorites
 Users can mark coins as favorites and access them quickly.
 
-```markdown
 ![Favorites](screenshots/favorites.png)
-```
-
----
 
 # 🎯 Learning Outcomes
 

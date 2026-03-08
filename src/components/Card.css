@@ -9,6 +9,7 @@
   color: #ffffff;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  flex-shrink: 0;
 }
 
 .card:hover {
@@ -55,4 +56,53 @@
   color: rgb(191, 191, 231);
   margin-left: 10px;
 }
+
+@media (max-width: 1024px){
+   .card{
+    width:220px;
+    padding:1.2rem;
+   }
+
+   .card-title{
+    font-size: 1rem;
+   }
+
+   .card-price{
+    font-size:1.4rem;
+   }
+
+   .card-change{
+    font-size: 0.9rem;
+   }
+
+   .symbol{
+    font-size:0.7rem;
+    margin-left: 8px;
+   }
+}
+
+@media (max-width: 480px){
+   .card{
+    width:160px;
+    padding:0.8rem;
+   }
+
+   .card-title{
+    font-size: 0.9rem;
+   }
+
+   .card-price{
+    font-size:1rem;
+   }
+
+   .card-change{
+    font-size: 0.8rem;
+   }
+
+   .symbol{
+    font-size:0.6rem;
+    margin-left: 4px;
+   }
+}
+  
 
